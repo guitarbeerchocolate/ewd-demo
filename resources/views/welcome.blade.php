@@ -20,12 +20,13 @@
         <div id="descriptionContainer" class="text-left">
             <p>This small application performs a few small tasks:</p>
             <ul>
-                <li>It pulls content from <a href="https://effectivewebdesigns.blogspot.com/" target="_blank" rel="noopener noreferrer">my blog using the Blogger API.</a></li>
+                <li>It pulls content from <a href="https://effectivewebdesigns.blogspot.com/" target="_blank" rel="noopener noreferrer">my blog</a> using the Blogger API.</li>
                 <li>It accepts phrases typed into the search box below.</li>
                 <li>It makes suggestions through the blog entry title for the next step, and allows the user to select one of those titles.</li>
                 <li>Once a title has been selected, it is used to provide results from the Brave search API.</li>
                 <li>The results are also links.</li>
             </ul>
+            <p>See the code for this site on <a href="https://github.com/guitarbeerchocolate/ewd-demo" target="_blank" rel="noopener noreferrer">GitHub</a></p>
         </div>
         <form action="{{ route('search-results') }}" method="GET">
             <input type="text" name="query" id="search-input" placeholder="Search..." class="text-slate-900 p-2">

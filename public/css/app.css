@@ -23,3 +23,7 @@ body {
 li {
     list-style-type: square; /* Use squares as bullet points for unordered lists */
 }
+
+a:visited {
+    color: #2288bb;
+}
