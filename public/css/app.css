@@ -1,0 +1,25 @@
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    font-family: Figtree, sans-serif;
+    font-feature-settings: normal;
+}
+
+body {
+    margin: 0;
+    line-height: inherit;
+}
+
+.suggestion {
+    padding: 0.5rem;
+}
+
+.suggestion:hover {
+    background-color: #4d6996;
+}
+
+li {
+    list-style-type: square; /* Use squares as bullet points for unordered lists */
+}
